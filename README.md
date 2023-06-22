@@ -24,8 +24,11 @@ url : http://localhost:8080/createTeam
 method : POST 
 
 body : {
+
     "name": "Team R", // name of team
+    
     "members" : ["6494a2f666541da3b285d9b9","6494a2fb66541da3b285d9bb", "6494a30266541da3b285d9bd"] // ObjectId of Persons
+    
 }
 
 # createTask
@@ -34,8 +37,11 @@ url : http://localhost:8080/createTask
 method: POST
 
 body : {
+
     "taskName": "Sleep", 
+    
     "teamId":"64948b3802486d8abdd824f7" // Object Id of team to which task needs to be assigned.
+    
 }
 
 # getAllTeams
